@@ -1,22 +1,55 @@
-.App {
+html {
   text-align: center;
+  background:  url('https://media.giphy.com/media/8qzZxm4TDdXHEDSGD2/giphy.gif') no-repeat center center fixed;
+  background-size: cover;
+
+}
+
+p{
+font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+
+h1 {
+font-size: 2em;
+line-height: 0.1em;
+}
+
+h4{
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffb4d9;
 }
 
 .App-logo {
   height: 40vmin;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.vertical {
+   border-radius: 10px;
+  border: 2px solid white;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-color: rgba(0,0,0,0.2);
+  padding: 40px;
+
+}
+
+.horiz{
+
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+
+.Jumbotron{
+
+  background-color: white;
+}
+
+.Con{
+  background-color: transparent;
 }
