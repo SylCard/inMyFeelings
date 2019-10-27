@@ -11,7 +11,7 @@ from spotipy import oauth2
 scope = 'user-library-read user-read-currently-playing user-top-read playlist-modify-public user-follow-read'
 
 
-sp_oauth = oauth2.SpotifyOAuth('1f6e7665f5c74cf8bc7d1c880321b6f3', '37769094da86417080b8553e0d821edf','https://inmyfeelings.me/logged',
+sp_oauth = oauth2.SpotifyOAuth('1f6e7665f5c74cf8bc7d1c880321b6f3', 'lool','https://inmyfeelings.me/logged',
 scope=scope,cache_path='.spocache')
 
 
