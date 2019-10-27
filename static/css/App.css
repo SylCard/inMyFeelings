@@ -10,16 +10,29 @@ font-family: 'Ubuntu', sans-serif;
 
 }
 
+.root {
+   position: absolute;
+   margin: auto;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   width:70%;
+   height:600px;
+
+}
 
 
-h1 {
-font-size: 2em;
-line-height: 0.1em;
+
+.vertical h1 {
+  font-family: 'Ubuntu', sans-serif;
+ margin:0;
 }
 
 h4{
   font-family: 'Ubuntu', sans-serif;
   color: #ffb4d9;
+   margin:0;
 }
 
 .App-logo {
@@ -27,12 +40,12 @@ h4{
 }
 
 .vertical {
-   border-radius: 10px;
+  border-radius: 10px;
   border: 2px solid white;
   font-size: calc(10px + 2vmin);
   color: white;
   background-color: rgba(0,0,0,0.2);
-  padding: 40px;
+  padding: 10px;
 
 }
 
